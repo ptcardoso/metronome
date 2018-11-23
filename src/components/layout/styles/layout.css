@@ -1,0 +1,26 @@
+.components-layout.default-container {
+    margin: 0 auto;
+}
+@media (max-width: 767px) {
+    .components-layout.default-container {
+        max-width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .components-layout.default-container {
+        max-width: 1170px;
+    }
+}
+
+.components-layout.flex-content {
+    display: flex;
+}
+.components-layout.flex-content.center, .components-layout.v-flex-content.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.components-layout.v-flex-content {
+    display: flex;
+    flex-direction: column;
+}
